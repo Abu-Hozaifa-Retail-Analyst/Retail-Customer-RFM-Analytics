@@ -1,0 +1,139 @@
+# ==============================
+# Python
+# ==============================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# ==============================
+# Environment / Credentials
+# ==============================
+
+.env
+.env.*
+*.pem
+*.key
+
+# ==============================
+# VS Code
+# ==============================
+
+.vscode/
+
+# ==============================
+# Operating System
+# ==============================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Python / Tool Cache
+# ==============================
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/# ==============================
+# Python
+# ==============================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# ==============================
+# Environment / Credentials
+# ==============================
+
+.env
+.env.*
+*.pem
+*.key
+
+# ==============================
+# VS Code
+# ==============================
+
+.vscode/
+
+# ==============================
+# Operating System
+# ==============================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Python / Tool Cache
+# ==============================
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ==============================
+# Temporary Files
+# ==============================
+
+*.tmp
+*.temp
+*.log
+
+# ==============================
+# Large / Generated Files
+# ==============================
+
+outputs/reports/*
+outputs/figures/*
+
+# ==============================
+# Power BI
+# ==============================
+
+# Keep PBIX files out of Git if they become too large.
+# Remove the next line if you intentionally want to version the PBIX file.
+# *.pbix
+
+# ==============================
+# Temporary Files
+# ==============================
+
+*.tmp
+*.temp
+*.log
+
+# ==============================
+# Large / Generated Files
+# ==============================
+
+outputs/reports/*
+outputs/figures/*
+
+# ==============================
+# Power BI
+# ==============================
+
+# Keep PBIX files out of Git if they become too large.
+# Remove the next line if you intentionally want to version the PBIX file.
+# *.pbix
