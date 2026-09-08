@@ -1,4 +1,3 @@
-
 # Retail Customer RFM Analytics
 
 ## Project Overview
@@ -96,6 +95,38 @@ The project will use customer transaction data containing information such as:
 The final dataset structure and statistics will be documented after data profiling and validation.
 
 ---
+
+## Data Documentation
+
+The project maintains a data dictionary documenting the expected business meaning, analytical purpose, and data-quality considerations for the project datasets.
+
+The data dictionary will be progressively updated as the project moves through:
+
+```text
+Raw Data
+   ↓
+Data Profiling
+   ↓
+Data Cleaning
+   ↓
+Data Validation
+   ↓
+Analytical Modeling
+```
+
+See:
+
+`docs/data_dictionary.md`
+
+The final documentation will distinguish between:
+
+* Raw source fields
+* Cleaned fields
+* Derived analytical fields
+* RFM metrics
+* Customer segmentation fields
+* Retention/risk fields
+
 
 ## Data Architecture
 
@@ -518,7 +549,7 @@ retail-customer-rfm-analytics/
 ├── powerbi/
 │
 ├── docs/
-│
+│   ├── data_dictionary.md
 ├── outputs/
 │   ├── figures/
 │   └── reports/
